@@ -1,0 +1,9 @@
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\Project\bin\Debug\Project.exe.config
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\Project\bin\Debug\Project.exe
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\Project\bin\Debug\Project.pdb
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\Project\obj\Debug\ConsoleMusicPlayerBR.csprojAssemblyReference.cache
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\Project\obj\Debug\ConsoleMusicPlayerBR.csproj.CoreCompileInputs.cache
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\Project\obj\Debug\Project.exe
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\Project\obj\Debug\Project.pdb
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\Project\obj\Debug\Interop.WMPLib.dll
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\Project\obj\Debug\ConsoleMusicPlayerBR.csproj.ResolveComReference.cache

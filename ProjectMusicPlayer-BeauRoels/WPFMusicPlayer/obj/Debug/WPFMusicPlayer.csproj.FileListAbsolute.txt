@@ -1,0 +1,17 @@
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\bin\Debug\WPFMusicPlayer.exe.config
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\bin\Debug\WPFMusicPlayer.exe
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\bin\Debug\WPFMusicPlayer.pdb
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\WPFMusicPlayer.csprojAssemblyReference.cache
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\Interop.WMPLib.dll
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\WPFMusicPlayer.csproj.ResolveComReference.cache
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\MainWindow.g.cs
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\App.g.cs
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\WPFMusicPlayer_MarkupCompile.cache
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\WPFMusicPlayer_MarkupCompile.lref
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\MainWindow.baml
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\WPFMusicPlayer.g.resources
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\WPFMusicPlayer.Properties.Resources.resources
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\WPFMusicPlayer.csproj.GenerateResource.cache
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\WPFMusicPlayer.csproj.CoreCompileInputs.cache
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\WPFMusicPlayer.exe
+D:\_05School\Odisee\IIP\Github\IIP-BeauRoels-2021\ProjectMusicPlayer-BeauRoels\WPFMusicPlayer\obj\Debug\WPFMusicPlayer.pdb

@@ -1,0 +1,68 @@
+﻿<Window x:Name="WindowMusicPlayer" x:Class="WPFMusicPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFMusicPlayer"
+        mc:Ignorable="d"
+        Title="Music Player" Height="833.004" Width="1469.467" Loaded="WindowMusicPlayer_Loaded">
+    <Window.Background>
+        <ImageBrush ImageSource="retro-styled-image-vintage-audio-cassette-player-retro-styled-image-vintage-silver-audio-cassette-player-buttons-174540718.jpg"/>
+    </Window.Background>
+    <Window.Effect>
+        <DropShadowEffect/>
+    </Window.Effect>
+    <Grid Margin="0,10,2,5">
+        <Label x:Name="lblPlayingSong" Content="Playing song" HorizontalAlignment="Left" Margin="677,153,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Slider x:Name="sldVolume" HorizontalAlignment="Left" Margin="1405,198,0,0" VerticalAlignment="Top" Height="527" Width="23" RenderTransformOrigin="0.5,0.5" ValueChanged="sldVolume_ValueChanged" SmallChange="0" IsSnapToTickEnabled="True" Maximum="100" Minimum="1" Orientation="Vertical" Background="#FFFDB45D">
+            <Slider.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="360.005"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Slider.RenderTransform>
+        </Slider>
+        <Button x:Name="btnStart" Content=" " HorizontalAlignment="Left" VerticalAlignment="Top" Width="151" Margin="740,630,0,0" Height="59" FontSize="22" FontWeight="Bold" Click="btnStart_Click" FontFamily="Century Gothic">
+            <Button.Background>
+                <ImageBrush ImageSource="play.png"/>
+            </Button.Background>
+        </Button>
+        <ListBox x:Name="listBoxPlaylist" HorizontalAlignment="Left" Height="502" VerticalAlignment="Top" Width="242" Margin="10,107,0,0" Background="#FFCCD4C5"/>
+        <Button x:Name="btnAddToPlaylist" Content="Add current song to playlist" HorizontalAlignment="Left" Margin="1214,37,0,0" VerticalAlignment="Top" Width="246" Height="37" FontSize="18" FontWeight="Bold" Click="btnAddToPlaylist_Click" Background="#FFC9D4C5"/>
+        <Button x:Name="btnShowExistingPlaylist" Content="Show existing playlist" HorizontalAlignment="Left" Margin="1214,82,0,0" VerticalAlignment="Top" Width="246" Height="37" FontSize="18" FontWeight="Bold" Click="btnShowExistingPlaylist_Click" Background="#FFC9D4C5"/>
+        <ComboBox x:Name="cmbAllSongs" HorizontalAlignment="Left" Margin="596,107,0,0" VerticalAlignment="Top" Width="278" Height="41" BorderBrush="#FFD0D7BF" Foreground="#FFFF6C22">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FFCCD3B2" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Button x:Name="btnMute" Content="Mute" HorizontalAlignment="Left" Margin="1294,324,0,0" VerticalAlignment="Top" Width="83" Height="34" FontSize="18" Click="btnMute_Click" FontFamily="Century Gothic" FontWeight="Bold" Background="#FFC9D2C2"/>
+        <Button x:Name="btnUnmute" Content="UnMute" HorizontalAlignment="Left" Margin="1294,478,0,0" VerticalAlignment="Top" Width="83" Height="39" FontSize="18" Click="btnUnmute_Click" FontFamily="Century Gothic" FontWeight="Bold" Background="#FFC9D2C2"/>
+        <Button x:Name="btnNext" Content=" " HorizontalAlignment="Left" Margin="891,630,0,0" VerticalAlignment="Top" Width="159" Height="59" FontSize="22" FontWeight="Bold" Click="btnNext_Click" FontFamily="Century Gothic">
+            <Button.Background>
+                <ImageBrush ImageSource="next.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnPrevious" Content=" " HorizontalAlignment="Left" Margin="579,630,0,0" VerticalAlignment="Top" Width="161" Height="51" FontSize="22" FontWeight="Bold" Click="btnPrevious_Click" FontFamily="Century Gothic">
+            <Button.Background>
+                <ImageBrush ImageSource="prev.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnPause" Content=" " HorizontalAlignment="Left" Margin="1050,630,0,0" VerticalAlignment="Top" Width="171" Height="59" Click="btnPause_Click" FontSize="22" FontWeight="Bold" FontFamily="Century Gothic">
+            <Button.Background>
+                <ImageBrush ImageSource="pause.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnContinue" Content="" HorizontalAlignment="Left" Margin="421,624,0,0" VerticalAlignment="Top" Width="148" Height="65" Click="btnContinue_Click" FontSize="22" FontWeight="Bold" FontFamily="Century Gothic">
+            <Button.Background>
+                <ImageBrush ImageSource="Continue.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Continue" HorizontalAlignment="Left" Margin="451,580,0,0" VerticalAlignment="Top" Width="118" FontSize="22" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
